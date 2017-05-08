@@ -1,0 +1,8 @@
+@reboot sudo /home/pi/snk/UltraSonic/ultraSonic.py
+@reboot /etc/init.d/start.sh
+* * * * * /home/pi/check_python.sh
+* * * * * sleep 10 ; /home/pi/check_python.sh
+* * * * * sleep 20 ; /home/pi/check_python.sh
+* * * * * sleep 30 ; /home/pi/check_python.sh
+* * * * * sleep 40 ; /home/pi/check_python.sh
+* * * * * sleep 50 ; /home/pi/check_python.sh
